@@ -1,0 +1,14 @@
+.aside {
+  background: var(--pink-low-opacity);
+  border-radius: 20px;
+  width: 680px;
+  position: relative;
+  z-index: -1;
+}
+.aside__girl {
+  position: fixed;
+  top: -18%;
+  max-width: 100%;
+  right: 0px;
+  width: 780px;
+}

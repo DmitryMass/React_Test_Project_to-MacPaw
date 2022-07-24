@@ -1,0 +1,6 @@
+.item__notfound {
+  padding: 18px 20px;
+  background: var(--bgc-gray);
+  border-radius: 10px;
+  color: var(--text-dark-gray);
+}

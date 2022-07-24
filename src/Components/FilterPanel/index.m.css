@@ -1,0 +1,76 @@
+.filter__link,
+.filter__linkFav,
+.filter__linkDislike,
+.filter__active,
+.filter__activeFav,
+.filter__activeDislike {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filter__linkFav {
+  background-image: url(../../Assets//Icons/fav-30.svg);
+}
+.filter__link {
+  background-image: url(../../Assets/Icons/like-30.svg);
+}
+.filter__linkDislike {
+  background-image: url(../../Assets/Icons/dislike-30.svg);
+}
+.filter__link,
+.filter__linkFav,
+.filter__activeFav,
+.filter__active,
+.filter__linkDislike,
+.filter__activeDislike {
+  background-color: var(--white-classic);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.filter__link:hover,
+.filter__linkFav:hover,
+.filter__linkDislike:hover {
+  background-color: var(--pink-low-opacity);
+}
+
+.filter__active {
+  background-color: var(--pink-main);
+  background-image: url(../../Assets/Icons/like-white-30.svg);
+}
+.filter__activeFav {
+  background-color: var(--pink-main);
+  background-image: url(../../Assets/Icons/fav-white-30.svg);
+}
+.filter__activeDislike {
+  background-color: var(--pink-main);
+  background-image: url(../../Assets/Icons/dislike-white-30.svg);
+}
+
+.filter__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__input {
+  border-radius: 20px;
+  border: none;
+  background-color: var(--white-classic);
+  padding: 15px 10px 15px 20px;
+  width: 470px;
+  height: 60px;
+  color: var(--black-classic);
+  background-image: url(../../Assets/Icons/search-btn.svg);
+  background-repeat: no-repeat;
+  background-position: 420px 50%;
+}
+.filter__input::placeholder {
+  color: var(--text-dark-gray);
+}
+
+.filter__panel {
+  gap: 10px;
+}

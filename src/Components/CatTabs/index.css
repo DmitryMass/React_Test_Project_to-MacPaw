@@ -1,0 +1,90 @@
+.tab__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.tab,
+.tab__active {
+  cursor: pointer;
+  max-width: 138px;
+}
+.tab__voting,
+.tab__breeds,
+.tab__gallery {
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+}
+
+.tab__voting {
+  background: var(--bgc-violet);
+}
+.tab__breeds {
+  background: var(--bgc-green);
+}
+.tab__gallery {
+  background: var(--bgc-yellow);
+}
+
+.tab:hover .tab__voting {
+  border: 4px solid #ffffff;
+}
+.tab:hover .tab__breeds {
+  border: 4px solid #ffffff;
+}
+
+.tab:hover .tab__gallery {
+  border: 4px solid #ffffff;
+}
+
+.tab:hover .tab__btn {
+  background: var(--pink-low-opacity);
+  color: var(--pink-main);
+}
+
+.tab__active .tab__voting {
+  border: 4px solid #fbe0dc;
+}
+.tab__active .tab__breeds {
+  border: 4px solid #fbe0dc;
+}
+.tab__active .tab__gallery {
+  border: 4px solid #fbe0dc;
+}
+
+.tab__active .tab__btn {
+  background: var(--pink-main);
+  color: var(--white-classic);
+}
+
+/*  */
+
+.tab__obj {
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+}
+.tab__btn {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white-classic);
+  border-radius: 10px;
+  color: var(--pink-main);
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+/*  */
+.content {
+  display: none;
+}
+.content__active {
+  display: block;
+  width: 250px;
+  background: yellowgreen;
+}

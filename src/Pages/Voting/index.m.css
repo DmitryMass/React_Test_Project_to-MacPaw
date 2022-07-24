@@ -1,0 +1,12 @@
+.voting__main {
+  position: relative;
+}
+
+.voting__img {
+  height: 360px;
+}
+.voting__img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

@@ -1,0 +1,116 @@
+:root {
+  /* Colors */
+  --body-bgc-light: #f8f8f7;
+  --black-classic: #1d1d1d;
+  --white-classic: #ffffff;
+
+  --pink-main: #ff868e;
+  --pink-low-opacity: #fbe0dc;
+  --bgc-pink-opacity: rgba(255, 134, 142, 0.3);
+
+  --green-like: #97eab9;
+
+  --bgc-hover: rgba(255, 134, 142, 0.6);
+  --bgc-border: rgba(255, 255, 255, 0.6);
+
+  --text-dark-gray: #8c8c8c;
+
+  --bgc-gray: #f8f8f7;
+  --bgc-violet: #b4b7ff;
+  --bgc-green: #97eab9;
+  --bgc-green-opacity: rgba(151, 234, 185, 0.3);
+  --bgc-yellow: #ffd280;
+  --bgc-yellow-opacity: rgba(255, 210, 128, 0.3);
+
+  /* Font-size */
+  --fs-lg: 44px;
+  --fs-md-er: 36px;
+  --fs-md: 20px;
+  --fs-sm-er: 16px;
+  --fs-sm: 12px;
+  /* Line-Height */
+  --lh-lg: 58px;
+  --lh-md-est: 52px;
+  --lh-md-er: 30px;
+  --lh-md: 29px;
+  --lh-sm-er: 24px;
+  --lh-sm: 16px;
+
+  /* Font-Weight */
+  --fw-normal: 400;
+  --fw-md: 500;
+  --fw-bold: 700;
+}
+/* Containers . Flex-containers. Grid */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+}
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box__wrapper {
+  width: 680px;
+  background: var(--white-classic);
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+}
+.container {
+  max-width: 1500px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.container__sm {
+  max-width: 446px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+.flex__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex__target {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+/* Selectors */
+
+.h1-title {
+  font-weight: var(--fw-md);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-lg);
+  padding-bottom: 10px;
+}
+
+.h2-title {
+  font-size: var(--fs-md-er);
+  line-height: var(--lh-md-est);
+  font-weight: var(--fw-md);
+}
+
+.p-info {
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+}
+.p-text {
+  font-size: var(--fs-md);
+  line-height: var(--lh-md-er);
+}
+.p-sm {
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  font-weight: var(--fw-md);
+}

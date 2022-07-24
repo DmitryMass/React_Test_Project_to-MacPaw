@@ -1,0 +1,15 @@
+.main {
+  padding-top: 80px;
+}
+.main__title {
+  padding-bottom: 60px;
+}
+.main__subtitle {
+  color: var(--text-dark-gray);
+}
+
+.main__tabs_title {
+  font-weight: var(--fw-md);
+  color: var(--black-classic);
+  padding-bottom: 20px;
+}

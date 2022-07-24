@@ -1,0 +1,64 @@
+.nav__menu {
+  padding: 4px;
+  gap: 4px;
+  background: var(--white-classic);
+  width: 250px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -41px;
+  border-radius: 25px;
+}
+.nav__like,
+.nav__favorite,
+.nav__dislike {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border: none;
+}
+
+.nav__like {
+  background-image: url(../../Assets/Icons/like-white-30.svg);
+  background-color: var(--bgc-green);
+  border-radius: 20px 0px 0px 20px;
+}
+.nav__like:hover {
+  background-image: url(../../Assets/Icons/like-color-30.svg);
+  background-color: var(--bgc-green-opacity);
+}
+
+.nav__favorite {
+  background-image: url(../../Assets/Icons/fav-white-30.svg);
+  background-color: var(--pink-main);
+}
+.nav__favorite:hover {
+  background-image: url(../../Assets/Icons/fav-30.svg);
+  background-color: var(--bgc-pink-opacity);
+}
+
+.nav__dislike {
+  background-image: url(../../Assets/Icons/dislike-white-30.svg);
+  background-color: var(--bgc-yellow);
+  border-radius: 0px 20px 20px 0;
+}
+.nav__dislike:hover {
+  background-image: url(../../Assets/Icons/dislike-color-30.svg);
+  background-color: var(--bgc-yellow-opacity);
+}
+
+.nav__like:active {
+  background-color: var(--bgc-green);
+  background-image: url(../../Assets/Icons/like-white-30.svg);
+}
+.nav__favorite:active {
+  background-color: var(--pink-main);
+  background-image: url(../../Assets/Icons/fav-full-white-30.svg);
+}
+.nav__dislike:active {
+  background-image: url(../../Assets/Icons/dislike-white-30.svg);
+
+  background-color: var(--bgc-yellow);
+}
